@@ -34,9 +34,27 @@ I(f'YOU_CAN{S}_MAKE_A_SOUP_IN_{d}_DAYS')
 
 """
 My Code:
-I=input
-c,t,d=[int(i)for i in I().split()]
-S=''
-if sum(1for c in I()if int(c)<=d)<t:S='NOT'
-I(f'YOU_CAN{S}_MAKE_A_SOUP_IN_{d}_DAYS')
+import sys
+import math
+
+# Auto-generated code below aims at helping you parse
+# the standard input according to the problem statement.
+
+crops, tomatoes, delay = [int(i) for i in input().split()]
+g = input()
+garden = [len(g)]
+for j in range(0,len(g)):
+    garden[j] = int(g[j])
+sort(garden)
+# Write an answer using print
+# To debug: print("Debug messages...", file=sys.stderr, flush=True)
+D=0
+for i in range(0,crops):
+    if(garden[i]<=delay):
+        D = D +1
+if(D<=tomatoes):
+    print("YOU_CAN_MAKE_A_SOUP_IN_"+str(dalay)+"_DAYS")    
+else:
+    print("YOU_CAN(NOT)_MAKE_A_SOUP_IN_"+str(delay)+"_DAYS")
+
 """
