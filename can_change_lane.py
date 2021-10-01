@@ -31,6 +31,25 @@ Output
 
 true
 
-
-
 """
+#My incomplete solution
+
+import sys
+import math
+
+# Auto-generated code below aims at helping you parse
+# the standard input according to the problem statement.
+flag = "false"
+for i in range(3):
+    line = input()
+    if line[0]== "|" and line[1] == "|":
+       flag = "true"
+    elif line[0]== "|" or line[1] == "|":
+       flag = "true"
+    else:
+        flag="false"
+    if line[0]!= "|" and line[1] == "|":
+        previous = int(line[0])
+    if line[0]== "|" and line[1] != "|":
+        previous = int(line[1])
+print(flag) 
