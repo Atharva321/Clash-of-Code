@@ -1,2 +1,2 @@
 # Clash-of-Code
-Clsh of Code programs
+Clash of Code programs
