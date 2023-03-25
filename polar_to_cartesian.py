@@ -1,5 +1,5 @@
 # Time  : O(1)
-# Space :
+# Space : O(1)
 
 import sys
 import math as m
