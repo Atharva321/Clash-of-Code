@@ -1,4 +1,4 @@
-# Time  : 
+# Time  : O(1)
 # Space :
 
 import sys
