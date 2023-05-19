@@ -32,7 +32,6 @@ Output
 true
 
 """
-#My incomplete solution
 
 import sys
 import math
