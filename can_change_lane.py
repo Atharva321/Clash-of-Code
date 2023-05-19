@@ -32,6 +32,8 @@ Output
 true
 
 """
+# Time  : O(n)
+# Space : O(1)
 
 import sys
 import math
