@@ -1,5 +1,5 @@
-Time
-
+Time  : O(n)
+Space : O(n)
 
 import sys
 import math
