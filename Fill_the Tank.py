@@ -13,7 +13,8 @@ Constraints
 0 < r ≤ 1000
 
 
-# """
+"""
+
 # Time  : O(1)
 # Space : O(1)
 
