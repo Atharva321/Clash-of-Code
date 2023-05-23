@@ -14,8 +14,8 @@ Constraints
 
 
 # """
-# Time  :
-# Space :
+# Time  : O(1)
+# Space : O(1)
 
 t, c, r = [int(i) for i in input().split()]
 print("yes" if c<=r*t else "no")
